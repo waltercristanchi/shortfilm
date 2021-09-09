@@ -1,0 +1,19 @@
+.containerSlider{
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.slideContainer{
+    display: flex;
+}
+.containerSlider img{
+    width: 1000px;
+    height: 280px;
+}
+
+@media screen and (min-width:768px) {
+    .containerSlider{
+        max-width: calc(100vw - 80px);
+
+    }
+}
